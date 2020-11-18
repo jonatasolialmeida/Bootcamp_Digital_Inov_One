@@ -1,0 +1,178 @@
+<!-- Para exibir um código devemos substituir as chaves:
+
+< por &lt;
+
+e chave
+
+> por &gt; -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jonatas Almeida</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <header>
+        <a href="html.html">
+            <img src="html5.png" alt="Logo do html5">
+        </a>
+        <a href="css.html">
+            <img src="css3.png" alt="logo do css3">
+        </a>
+        <a href="javaScript.html">
+            <img src="js.png" alt="logo do JavaScript">
+        </a>
+           <h1>Aprendendo com a prática HTML5</h1>
+       </header>
+
+       <!-- <img src="fotoPerfil.png" alt="foto de perfil do Jonatas Almeida"> -->
+
+       <section>
+
+        <h2><a href="#Definição e estrutura básica">Definição e estrutura básica</a> - <a href="#Semântica">Semântica</a> - <a href="#Textos e links">Textos e links</a> - <a href="#Imagens">Imagens</a> - <a href="#Listas">Listas</a></h2>
+
+           <article>
+            <h3 id="Definição e estrutura básica">Definição e estrutura básica</h3>
+
+            <p>
+                Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
+                
+                Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.
+                
+                Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
+                
+                Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.
+                
+                E agora podemos ver como é a estrutura básica de um arquivo HTML.
+                
+                A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+                
+                </p>  
+
+                <!-- <img src="pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg" alt="Imagem de código html em um editor de textos"> -->
+    
+                <strong> html </strong>
+                <p>A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo <strong>lang</strong>, para o português brasileiro usamos pt-BR.
+                </p>
+    
+                <strong>head</strong>
+                <p>A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o <strong>charset</strong> , que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag <strong>script</strong>, o <strong>CSS</strong> através das tags <strong>style</strong>
+                    e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag <strong>title</strong>.
+                </p>
+    
+                <strong>body</strong>
+                <p>E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
+                </p>
+
+                <h3 id="Semântica">Semântica</h3>
+
+                <p>
+                    Durante muitos anos o elemento padrão no HTML era a div, construíamos nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.
+
+Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários mudanças importantes, como performance e acessibilidade, mas nesse curso introdutório vamos focar na semântica.
+
+A semântica nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários elementos para ressignificar as divs:
+
+<h4>&lt;section&gt;
+</h4>
+Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.
+
+<h4>&lt;header&gt;</h4>
+É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.
+
+<h4>&lt;article&gt;</h4>
+Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.
+
+<h4>&lt;aside&gt;</h4>
+É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
+
+<h4>&lt;footer&gt;</h4>
+Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um <footer> são informações de autor e links relacionados.
+
+<h4>&lt;h1&gt;  -  &lt;h6&gt;</h4>
+Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo &lt;h1&gt; o mais importante e &lt;h6&gt; o menos. Uma dica: use apenas um &lt;h1&gt; por página, pois ele representa o objetivo da sua página.
+                </p>
+
+                <h3 id="Textos e links">Textos e links</h3>
+                
+                <p>
+                    A criação do HTML foi motivada pela necessidade de compartilhar textos e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte do conteúdo da web.
+
+                    Já falamos anteriormente sobre os elementos h1-h6 e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
+                    
+                    <p>O &lt;p&gt; representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele. Um outro elemento interessante e extremamente necessário na web é o <a> - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
+                    </p>
+                    
+                    <p>
+                                            O elemento a tem vários atributos, mas vamos focar em dois, o <strong>href</strong>
+                                            e o <strong>target</strong>.
+                    </p>
+                    
+                    <p>
+                                            O href representa o hyperlink para onde sua âncora aponta, pode ser uma página do seu ou de outro site, um e-mail e até mesmo um telefone, os dois últimos precisam dos prefixos tel: e mailto:, respectivamente.
+                    </p>
+                    
+                    <p>
+                                            O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor     <strong>_blank</strong>
+                                            .
+                    </p>
+                </p>
+    
+     <h3 id="Imagens">Imagens</h3>
+     <p>
+         A web também é feita de imagens e para representá-las temos o elemento &lt;img&gt;, ele é um daqueles elementos sem tag de fechamento.
+
+        O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
+        
+        O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
+        
+        O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
+    </p>
+
+    <h3 id="Listas">Listas</h3>
+    <p>
+        Os últimos elementos que veremos neste módulo são os relacionados a listas: &lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;.
+    </p>
+    <p>            Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos. <br> <br>
+            
+        - O elemento &lt;ul&gt; cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados. <br>
+        
+        - O &lt;ol&gt; serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras. <br>
+        
+        - E o elemento &lt;li&gt; é um item dentro de uma dessas listas. <br> 
+        
+        - Um &lt;li&gt; pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+</p>
+           </article>
+       </section>
+            <footer>
+                <h3>Aula prática bootcamp HTML web developer Digital Inovation One</h3>
+
+                by Jonatas Almeida
+                <p>Contatos: </p>
+
+                <lu>
+                    <li>
+                        <a href="mailto:jonatas.olialmeida@gmail.com" target="_blank">e-mail </a>                 
+                    </li>
+                    <li>
+                        <a href="https://github.com/jonatasolialmeida" target="_blank">github </a>
+                    </li>
+                    <li>
+                        <a href="tel:+55021997675336" target="_blank">Telefone</a>
+                    </li>
+                </lu>
+
+                <br>  <!-- COLOQUEI PARA DISTANCIAR A LISTA DO BOTÃO /  -->
+
+                <!-- BOTÃO FICARÁ SEMPRE LADO DIREITO / PARTE INFERIOR DA PAGINA  -->
+                <!-- NO FORMATO ABAIXO, ELE RECARREGA A PAGINA/  
+                A IDÉIA É QUE ELE SUBA A PÁGINA COMO SE CLICASSE NO PAGE UP -->
+                <a href="html.html"><button >Criar botão TIPO SETA P/ cima Voltar ao topo</button></a>
+            </footer>
+    </body>
+</html>
