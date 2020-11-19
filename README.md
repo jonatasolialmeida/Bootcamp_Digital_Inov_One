@@ -1,5 +1,5 @@
 # Bootcamp_Digital_Inov_One
-Html Web Deleveloper - Digital Inovation One
+Html Web Deleveloper - Digital Inovation One - 27hrs
 
 
 Ainda vou colocar um README decente.
@@ -10,9 +10,12 @@ Bom, a idéia inicial é ir mostrando meu progresso nesse bootcamp.
 
 Objetos de estudo:
 
+- Lógica de programação
 - Html5
 - Css3
 - JavaScript
+- Git e Git Hub
+- Bootstrap
 
 - já criei as pastas organizando os arquivos do projeto
 - já foram feitas 4 páginas ao todo
