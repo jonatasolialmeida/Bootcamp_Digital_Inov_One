@@ -1,14 +1,11 @@
-# Bootcamp_Digital_Inov_One
+# <h1>Bootcamp_Digital_Inov_One</h1>
 Html Web Deleveloper - Digital Inovation One - 27hrs
 
 
-Ainda vou colocar um README decente.
+<h3>Bom, a idéia inicial é ir mostrando meu progresso nesse bootcamp.</h3>
 
 
-Bom, a idéia inicial é ir mostrando meu progresso nesse bootcamp.
-
-
-Objetos de estudo:
+<h2>Objetos de estudo:</h2>
 
 - Lógica de programação
 - Html5
@@ -21,7 +18,7 @@ Objetos de estudo:
 - já foram feitas 4 páginas ao todo
 - uma folha de estilo css
 
-Projetos:
+<h2>Projetos:</h2>
 
 - Recriando a interface da Netflix
 - Recriando o jogo da cobrinha com JavaScript
@@ -34,34 +31,19 @@ e também boas práticas na hora de codar.
 
 Mas o foco maior é no Css3.
 
-No Html5 ela explica de forma simples e profunda coisas como:
+<h1>Para acessar o projeto que iniciei (Interface do Instagram) clique:</h1>
 
-- o uso de class
-- formas de criar e nomeá-las
-- nome dessas classes - elas precisam fazer sentido tanto para mim, quanto pra você
-
-- um novo elemento chamado &lt;div&gt; - Ela usa para explicar rapidamente o conceito de container "PAI" e sua aplicação
-
-- Através do uso da &lt;div&gt;, ela ensina a ter uma nova perspectiva ao ver o designer da página,
-e a melhor forma de separar os conteúdos que vão receber suas respectivas estilizações no Css
-
-- truque para criação de ancoras - a*2 // VAI CRIAR DUAS ANCORAS DE UMA VEZ - PODE CRIAR MAIS DEPENDENDO DO QUANTO MANDE MULTIPLICAR 
-
-Obs: o * aqui é como multiplicamos em programação.
+https://github.com/jonatasolialmeida/Interface-instagram
 
 
-No Css3 ela explica novos conceitos como:
-
-- "resetar" inicialmente os valores que o browser fornece por padrão
-- ensina o uso de (display: flex;), justify-content e align-items
-- uso de media queries para responsividade
-- uso de um tipo de seleção capaz de pegar containers "PAIS","FILHOS"
-separadamente e em ordem.
-
-Entre outras coisas que vale a pena você participar do bootcamp
+<h2>Vale a pena você participar do bootcamp</h2>
 
 segue o link:
 
 https://web.digitalinnovation.one/track/html-web-developer
 
 Se inscreve lá, é gratuito.   https://digitalinnovation.one/sign-up
+
+<h1>Para acessar outros projetos clique:</h1>
+
+https://github.com/jonatasolialmeida?tab=repositories
